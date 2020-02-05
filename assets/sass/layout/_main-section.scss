@@ -1,0 +1,86 @@
+// Sección Noticias
+@media (max-width: 540px) {
+    #web {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .noticia {
+        padding-right: 15px;
+    }
+
+    #movil {
+        display: none;
+    }
+}
+
+.noticia {
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cuerpo {
+    img {
+        width: 100%;
+    }
+
+    p {
+        padding: 5px 10px;
+    }
+}
+
+
+/* Listado izquierdo */
+@media (max-width: 540px) {
+    .listado-izquierdo {
+        display: none;
+    }
+}
+
+.listado-izquierdo {
+    width: 100%;
+    position: relative;
+}
+
+.menu-lateral {
+    width: 240px;
+    position: absolute;
+    right: 0;
+}
+
+.cabecera-listado {
+    width: 220px;
+    border-bottom: 1px solid gray;
+}
+
+.tags {
+    border-bottom: 1px solid gray;
+}
+
+.tags {
+    ul {
+        padding: 0;
+        list-style: none;
+        justify-content: flex-end;
+        display: flex;
+
+        li {
+            padding: 2px 4px;
+            background-color: steelblue;
+            color: white;
+            display: inline-block;
+            text-align: left;
+            margin-right: 8px;
+        }
+    }
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+
+    img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+// Barra de Navegación
+@media (max-width: 540px) {
+    #nosotros, #web, .listado-izquierdo {
+        display: none;
+    }
+
+    .menu {
+        height: 70px;
+    }
+}
+
+@media (min-width: 992px) {
+    #movil {
+        display: none;
+    }
+
+    .menu {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        margin-bottom: 40px;
+        height: 70px;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: #FFF;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    padding: 0;
+    text-align: end;
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #FFF;
+        }
+    }
+}
+
+#nosotros, #contacto {
+    margin-right: 20px;
+}

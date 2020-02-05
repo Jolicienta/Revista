@@ -1,0 +1,26 @@
+// Input de barra de Navegación
+@media (max-width: 540px) {
+    .input-menu {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .input-menu {
+        width: 170px;
+    }
+}
+
+.input-menu {
+    border-radius: 30px;
+}
+
+// Input del botón de la sección newsletters
+.group {
+    input {
+        display: inline-block;
+        border-width: 0;
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+}
